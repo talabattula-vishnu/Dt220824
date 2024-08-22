@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+    </head>
+    <body>
+        <h1 align="center">Enter your details for registration</h1>
+        <hr>
+        <form>
+            <table border="0px" align="center" cellspacing="15px">
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="mail" required></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender"> Male
+                        <input type="radio" name="gender"> Female
+                        <input type="radio" name="gender"> Others
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="branch">Branch:</label></td>
+                    <td><select name="branch">
+                        <option value="CSE"> CSE</option>
+                        <option value="ECE"> ECE</option>
+                        <option value="EEE"> EEE</option>
+                        <option value="Mech"> Mech</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea rows="3" cols="20" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" required></td>
+                </tr>
+                <tr>
+                    <td><a href="registerSucess.html"><input type="button" value="Submit"></a></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
